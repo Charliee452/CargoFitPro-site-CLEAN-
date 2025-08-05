@@ -1,5 +1,5 @@
 
-import ULDMatcher from './components/ULDMatcher';
+import CargoPlanner3D from './components/CargoPlanner3D';
 
 export default function App() {
   return (
@@ -8,24 +8,13 @@ export default function App() {
         CargoFit Pro
       </header>
       <main className="flex-1 p-6 space-y-8">
-        <section>
-          <h1 className="text-4xl font-bold mb-4">Smart ULD Matching for Your Cargo</h1>
-          <p>Enter your box dimensions and visualize the best-fit ULD containers — fast and easy.</p>
-        </section>
-
-        <ULDMatcher />
-
-        <section className="mt-8">
-          <h2 className="text-2xl font-semibold">Membership</h2>
-          <ul className="mt-2 list-disc list-inside">
-            <li>$19.99/month</li>
-            <li>$199.99/year</li>
-          </ul>
-        </section>
+        <h1 className="text-4xl font-bold mb-4">3D Cargo Planner</h1>
+        <p>Visualize how your cargo fits inside a ULD container.</p>
+        <CargoPlanner3D uldDimensions={[3,2,2]} boxDimensions={[0.5,0.5,0.5]} quantity={20} />
       </main>
       <footer className="bg-[#F75C1E] text-white p-4 text-center">
-        &copy; 2025 CargoFit Pro • Follow us on Facebook, Instagram, TikTok
+        &copy; 2025 CargoFit Pro
       </footer>
     </div>
-  )
+  );
 }
