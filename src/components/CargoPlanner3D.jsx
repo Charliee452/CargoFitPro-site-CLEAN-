@@ -16,7 +16,6 @@ export default function CargoPlanner3D({ uldDimensions = [3, 2, 2], boxDimension
   const boxes = [];
   const [uldL, uldW, uldH] = uldDimensions;
   const [bL, bW, bH] = boxDimensions;
-
   let x = -uldL / 2 + bL / 2;
   let y = -uldH / 2 + bH / 2;
   let z = -uldW / 2 + bW / 2;
