@@ -40,9 +40,7 @@ export default function CargoPlanner3D({ uldDimensions = [3, 2, 2], boxDimension
         <ambientLight intensity={0.5} />
         <pointLight position={[10, 10, 10]} />
         <Suspense fallback={null}>
-          {/* ULD Container */}
           <Box position={[0, 0, 0]} size={[uldL, uldH, uldW]} color="rgba(0,0,255,0.2)" />
-          {/* Cargo Boxes */}
           {boxes}
         </Suspense>
         <OrbitControls />
