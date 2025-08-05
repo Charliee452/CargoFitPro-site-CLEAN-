@@ -1,0 +1,117 @@
+[
+  {
+    "code": "AKE",
+    "type": "container",
+    "dimensions_cm": {
+      "length": 156,
+      "width": 153,
+      "height": 163
+    },
+    "tare_kg": 71,
+    "max_kg": 1587,
+    "airlines": [
+      "American Airlines",
+      "United Airlines",
+      "Emirates",
+      "Qatar Airways"
+    ],
+    "airlineVariants": {
+      "Emirates": {
+        "code": "AKE_EK",
+        "contour": "LD-3"
+      },
+      "Qatar Airways": {
+        "code": "QKE",
+        "contour": "LD-3"
+      }
+    },
+    "aircraft": [
+      "B777",
+      "B787",
+      "A380"
+    ]
+  },
+  {
+    "code": "DQP",
+    "type": "container",
+    "dimensions_cm": {
+      "length": 244,
+      "width": 153,
+      "height": 163
+    },
+    "tare_kg": 130,
+    "max_kg": 2449,
+    "airlines": [
+      "ANA",
+      "Korean Airlines",
+      "Asiana",
+      "Turkish Airlines"
+    ],
+    "airlineVariants": {
+      "ANA": {
+        "code": "DQP_ANA",
+        "contour": "LD-4F"
+      }
+    },
+    "aircraft": [
+      "B767",
+      "B777",
+      "B787"
+    ]
+  },
+  {
+    "code": "AMF",
+    "type": "container",
+    "dimensions_cm": {
+      "length": 318,
+      "width": 244,
+      "height": 163
+    },
+    "tare_kg": 280,
+    "max_kg": 5102,
+    "airlines": [
+      "British Airways",
+      "Royal Air Maroc",
+      "Royal Jordanian",
+      "Etihad"
+    ],
+    "airlineVariants": {
+      "British Airways": {
+        "code": "AMF_BA",
+        "contour": "LD-36 (LD-11F)"
+      }
+    },
+    "aircraft": [
+      "A380",
+      "B777",
+      "B787"
+    ]
+  },
+  {
+    "code": "PAG",
+    "type": "pallet",
+    "dimensions_cm": {
+      "length": 318,
+      "width": 224,
+      "height": 163
+    },
+    "tare_kg": 100,
+    "max_kg": 4676,
+    "airlines": [
+      "United Airlines",
+      "American Airlines"
+    ],
+    "airlineVariants": {
+      "American Airlines": {
+        "code": "PAG_AA",
+        "contour": "PAG"
+      }
+    },
+    "aircraft": [
+      "B777",
+      "B787",
+      "A380",
+      "B767ER"
+    ]
+  }
+]
